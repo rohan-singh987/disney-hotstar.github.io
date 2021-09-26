@@ -28,8 +28,20 @@ const ImgSlider = () => {
             </Wrap>
             
             <Wrap>
+                <img src="/images/slider-scale.jpg" alt="" />
+            </Wrap>
+            
+            <Wrap>
                 <img src="/images/slider-badging.jpg" alt="" />
             </Wrap>
+            
+            <Wrap>
+                <img src="/images/slider-scales.jpg" alt="" />
+            </Wrap>
+            
+            
+            
+            
         </Carousel>
     )
 }
@@ -65,8 +77,9 @@ const Wrap = styled.div`
     cursor: pointer;
 
     img{
-        border: 4px solid transparent;
-        border-radius: 10px;
+        border: 5px solid transparent;
+        border-radius: 20px;
+        // width: 759px;
         width: 100%;
         height: 100%;
         box-shadow: rgb(0 0 0 /69%) 0px 26px 30px -10px,
@@ -74,7 +87,7 @@ const Wrap = styled.div`
         transition-duration: 400ms;
 
         &:hover{
-            border: 4px solid rgba(249, 249, 249, 0.8);
+            border: 10px solid rgba(249, 249, 249, 0.8);
         }
     }
 `
