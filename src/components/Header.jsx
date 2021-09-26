@@ -84,7 +84,7 @@ const Nav = styled.nav`
             
             &:after{
                 content:"";
-                height: 2px;
+                height: 3px;
                 background: whitesmoke;
                 position: absolute;
                 left: 0;

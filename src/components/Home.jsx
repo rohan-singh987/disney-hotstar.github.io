@@ -1,11 +1,12 @@
 import styled from "styled-components"
 import ImgSlider from "./ImgSlider"
+import Viewer from "./Viewer"
 
 const Home = () => {
     return (
         <Container>
             <ImgSlider/>
-            Home
+            <Viewer/>
         </Container>
     )
 }
