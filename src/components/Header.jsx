@@ -52,6 +52,8 @@ const Nav = styled.nav`
     align-items:center;
     padding: 0 36px;
     justify-content: space-between;
+    position: sticky;
+    overflow-x: hidder;
     `
     
     const Logo = styled.img`

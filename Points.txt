@@ -1,0 +1,31 @@
+# style Components
+`npm install styled-components`
+=> Styles components are basically CSS within JavaScript
+   import it to page using `import styled from "styled-components"` to use it
+ use Styled Components tag like Conatiner,Cta etc instead of div or span
+use:
+const var_name = styled.div`style: value;`	[in backticks (``)]
+const Container = styled.div`
+    height: 70px;
+    background: #090b13;
+
+## Step-1
+Start by cleaning the app
+
+## Step -2
+Divide Poject int components and pages
+	----> 1.Header
+	----> 2.Home
+		----> 1.Slider
+		----> 2.Viewer
+		----> 3.MoviesLisit
+## Step-3
+Start building app with components
+	---->1.Header
+		import it to app.js
+	---->2.Home
+		
+
+
+`
+
