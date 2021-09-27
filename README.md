@@ -1,7 +1,8 @@
 # style Components
 `npm install styled-components`
+
 => Styles components are basically CSS within JavaScript
-   import it to page using `import styled from "styled-components"` to use it
+   import it to page using import styled from "styled-components" to use it
  use Styled Components tag like Conatiner,Cta etc instead of div or span
 use:
 const var_name = styled.div`style: value;`	[in backticks (``)]
@@ -14,10 +15,10 @@ const Container = styled.div`
 `npm install react-router-dom`
  import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 => react-router is use to switch between one page to another page
+	
 	<Router>
            <Header />  (under Router it will always remain on its position in every page)
                 <Switch>
-
                     <Route path="/detail">
                         <Details/>
                     </Route>
@@ -25,7 +26,6 @@ const Container = styled.div`
                     <Route path="/">
                         <Home />
                     </Route>
-
                 </Switch>
 	</Router>
 
