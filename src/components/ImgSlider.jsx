@@ -30,13 +30,42 @@ const ImgSlider = () => {
             <Wrap>
                 <img src="/images/slider-scale.jpg" alt="" />
             </Wrap>
-            
-            <Wrap>
-                <img src="/images/slider-badging.jpg" alt="" />
-            </Wrap>
-            
+ 
             <Wrap>
                 <img src="/images/slider-scales.jpg" alt="" />
+            </Wrap>
+            
+            
+            <Wrap>
+                <img src="/images/slide1.jpg" alt="" />
+            </Wrap>
+            
+            
+            
+            <Wrap>
+                <img src="/images/slide4.jpg" alt="" />
+            </Wrap>
+            
+            
+            
+            <Wrap>
+                <img src="/images/slide2.jpg" alt="" />
+            </Wrap>
+            
+            
+            
+            <Wrap>
+                <img src="/images/slide3.jpg" alt="" />
+            </Wrap>
+            
+            
+            <Wrap>
+                <img src="/images/slide5.jpg" alt="" />
+            </Wrap>
+            
+            
+            <Wrap>
+                <img src="/images/slide6.jpg" alt="" />
             </Wrap>
             
             
