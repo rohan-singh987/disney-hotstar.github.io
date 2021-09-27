@@ -1,15 +1,16 @@
 # style Components
 `npm install styled-components`
 
-=> Styles components are basically CSS within JavaScript
+=> Styles components are basically CSS within JavaScript.
+
    import it to page using import styled from "styled-components" to use it
  use Styled Components tag like Conatiner,Cta etc instead of div or span
 use:
-const var_name = styled.div`style: value;`	[in backticks (``)]
+const var_name = styled.div`style: value;	[in backticks (``)]
 const Container = styled.div`
     height: 70px;
     background: #090b13;
-`
+
 
 # react-router-dom
 `npm install react-router-dom`
@@ -46,6 +47,7 @@ Start building app with components
 	       import it to app.js
 
 ### pages
+
 	---->2.Home
 	       import Home from './components/Home'; (in app.js)		
 			-----> 1.Slider
