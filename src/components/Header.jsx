@@ -4,35 +4,35 @@ const Header = () => {
         <Nav>
             <Logo src="./images/logo.svg" />
             <NavMenu>
-                <a>
-                    <img src="/images/home-icon.svg" />
+                <button>
+                    <img src="/images/home-icon.svg"alt="" />
                     <span>HOME</span>
-                </a>
+                </button>
                 
-                <a>
-                    <img src="/images/search-icon.svg" />
+                <button>
+                    <img src="/images/search-icon.svg" alt=""/>
                     <span>SEARCH</span>
-                </a>
+                </button>
                 
-                <a>
-                    <img src="/images/original-icon.svg" />
+                <button>
+                    <img src="/images/original-icon.svg"alt="" />
                     <span>ORIGINALS</span>
-                </a>
+                </button>
                 
-                <a>
-                    <img src="/images/movie-icon.svg" />
+                <button>
+                    <img src="/images/movie-icon.svg" alt=""/>
                     <span>MOVIES</span>
-                </a>
+                </button>
                 
-                <a>
-                    <img src="/images/series-icon.svg" />
+                <button>
+                    <img src="/images/series-icon.svg" alt=""/>
                     <span>SERIES</span>
-                </a>
+                </button>
                 
-                <a>
-                    <img src="/images/watchList-icon.svg" />
+                <button>
+                    <img src="/images/watchList-icon.svg" alt=""/>
                     <span>WATCHLIST</span>
-                </a>
+                </button>
             </NavMenu>
 
             <UserImg src="https://avatars.githubusercontent.com/u/76906632?v=4" />
@@ -67,12 +67,15 @@ const Nav = styled.nav`
     align-items: center; 
     
 
-    a{
+    button{
         display: flex;
         align-items: center;
         padding: 0 12px;
         cursor: pointer;
-
+        background: #090b13;
+        border: rgb(249,249,249);
+        color: rgb(249, 249,249);
+        
         img{
             height: 25px;
         }
