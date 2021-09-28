@@ -69,6 +69,11 @@ const ImgSlider = () => {
             </Wrap>
             
             
+            <Wrap>
+                <img src="https://cdn-ssl.s7.disneystore.com/is/image/ShopDisney/mb_marvel_20210405_2x-logo?fit=constrain&cropN=0,0,1,1&fmt=jpeg&qlt=90&wid=1200" alt="" />
+            </Wrap>
+            
+            
             
             
         </Carousel>
