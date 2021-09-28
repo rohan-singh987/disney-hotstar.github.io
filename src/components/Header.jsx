@@ -53,7 +53,7 @@ const Nav = styled.nav`
     padding: 0 36px;
     justify-content: space-between;
     position: sticky;
-    overflow-x: hidder;
+    overflow-x: hidden;
     `
     
     const Logo = styled.img`
