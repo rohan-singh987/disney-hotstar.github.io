@@ -33,9 +33,10 @@ const Container = styled.div`
 
 ## Step-1
 Start by cleaning the app
+remove unwanted files from your project
 
 ## Step -2
-Divide Poject int components and pages
+Divide Poject in  components and pages
 	----> 1.Header
 	----> 2.Home
 		----> 1.Slider
