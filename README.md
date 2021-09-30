@@ -31,18 +31,18 @@ const Container = styled.div`
 	</Router>
 
 
-## Step-1
+## Step- 1
 Start by cleaning the app
 remove unwanted files from your project
 
-## Step -2
-Divide Poject in  components and pages
-	----> 1.Header
-	----> 2.Home
-		----> 1.Slider
-		----> 2.Viewers
-		----> 3.MoviesLisit
-## Step-3
+## Step- 2
+Divide Poject in different components and pages
+	----> 1.Header 	(component)
+	----> 2.Home	(page)
+		----> 1.Slider	(comp)
+		----> 2.Viewers	(comp)
+		----> 3.Movies	(comp)
+## Step- 3
 Start building app with components
 	---->1.Header
 	       import it to app.js
