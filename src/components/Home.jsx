@@ -1,17 +1,17 @@
-import React, { useEffect } from "react"
+// import React, { useEffect } from "react"
 import styled from "styled-components"
 import ImgSlider from "./ImgSlider"
 import Viewer from "./Viewer"
 import Movies from "./Movies"
-import db from "../firebase"
+// import db from "../firebase"
 
 const Home = () => {
 
-    useEffect(() => {
-        // db.collection("movies").onSnapshot((snapshot) => {
-            // console.log(snapshot);
-        // });
-    }, [])
+//     useEffect(() => {
+//         // db.collection("movies").onSnapshot((snapshot) => {
+//             // console.log(snapshot);
+//         // });
+//     }, [])
 
 
     return (
